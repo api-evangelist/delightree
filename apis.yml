@@ -1,8 +1,13 @@
 aid: delightree
 name: Delightree
-description: 'Delightree is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: productivity. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Delightree is an AI-powered franchise operations platform that consolidates franchise
+  management into a single operating system for headquarters and location teams. It combines a centralized
+  knowledge base, interactive training, task management, forms and checklists, audits, a location launcher
+  for opening new stores, team communication, and reporting so franchisors can standardize and enforce
+  standard operating procedures across every location. The platform is built around frontline franchisee
+  adoption and serves 150+ franchise brands across food and beverage, fitness, wellness, home services,
+  and other multi-unit, regulated sectors. Backed by Accel; profiled in the API Evangelist network. No
+  public developer API or documentation program was found during enrichment (2026-07-18).'
 url: https://raw.githubusercontent.com/api-evangelist/delightree/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.delightree.com/opengraph-image?40c2ab40597d016e
 tags:
 - Company
 - Productivity
+- Franchise Management
+- Franchise Operations
+- Task Management
+- Training
+- Knowledge Base
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/delightree-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/delightree-domain-security.yml
+- type: Security
+  url: https://www.delightree.com/security
 - type: Website
   url: https://www.delightree.com/
+- type: Documentation
+  url: https://8332146.hs-sites.com/en/knowledgebase
+- type: HelpCenter
+  url: https://8332146.hs-sites.com/en/knowledgebase
+- type: Support
+  url: https://www.delightree.com/contact
+- type: Blog
+  url: https://www.delightree.com/resources
+- type: Pricing
+  url: https://www.delightree.com/pricing
+- type: Login
+  url: https://app.delightree.com/
+- type: TermsOfService
+  url: https://www.delightree.com/terms
+- type: PrivacyPolicy
+  url: https://www.delightree.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
